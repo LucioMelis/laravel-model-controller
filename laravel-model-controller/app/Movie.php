@@ -20,8 +20,8 @@ class Movie extends Model
     // funzione per ritornare l'immagine
     public function getImage(){
         switch ($this->id) {
-            case 0:
-                echo "i equals 0";
+            case 1:
+                return 'https://www.cincincinema.it/wp-content/uploads/2017/10/Il-Padrino.jpg';
                 break;
             case 1:
                 echo "i equals 1";
