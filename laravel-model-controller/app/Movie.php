@@ -23,10 +23,31 @@ class Movie extends Model
             case 1:
                 return 'https://www.cincincinema.it/wp-content/uploads/2017/10/Il-Padrino.jpg';
                 break;
-            case 1:
+            case 2:
                 echo "i equals 1";
                 break;
-            case 2:
+            case 3:
+                echo "i equals 2";
+                break;
+            case 4:
+                echo "i equals 2";
+                break;
+            case 5:
+                echo "i equals 2";
+                break;
+            case 6:
+                echo "i equals 2";
+                break;
+            case 7:
+                echo "i equals 2";
+                break;
+            case 8:
+                echo "i equals 2";
+                break;
+            case 9:
+                echo "i equals 2";
+                break;
+            case 10:
                 echo "i equals 2";
                 break;
         }
