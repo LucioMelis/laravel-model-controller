@@ -6,6 +6,7 @@
 
 @section('content-movie')
     @foreach ($movies as $movie)
+        <img src="{{ $movie->getImage() }}" alt="{{ $movie->title }}">
         <h2>{{ $movie->title }}</h2>
         <p>{{ $movie->original_title }}</p>
         <p>{{ $movie->nationality }}</p>
